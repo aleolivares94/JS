@@ -1,21 +1,16 @@
 //ingresas un numero entero y el programa detecta si es primo o no.
 
 let num = Number(prompt("introduce un numero"))
-let divisores = 0
+let divisores = true;
 
-if (num === 1)
-    console.log("El numero no es valido")
-
-else {
-    for (let i = 2; i < num; i++) {
-        if (num % 1 == 0) {
-            console.log(`${num} / ${i} = ${num / i} no es primo`)
-            divisores++
-            break
-
-        }
+for (let i = 2; i < num / 2; i++) {
+    if (num % i === 0) {
+        divisores = false;
     }
 }
 
-if (divisores == 0)
-    console.log(`${num} es primo`)
+if (divisores) {
+    alert(`${num} es un numero primo`);
+} else {
+    alert(`${num} no es un numero primo`);
+}

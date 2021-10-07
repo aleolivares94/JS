@@ -7,7 +7,7 @@ class Compra {
     }
 
     Items() {
-        return `compraste una ${this.producto} marca ${this.marca} te salio ${this.precio}.Gracias!!`
+        return `compraste una ${this.producto} marca ${this.marca} te salio ${this.precio} .Gracias!!`
     }
 
 

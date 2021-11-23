@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background: url(./css/137964-uniforme_deportivo-5003x3336.jpg);
+    background-size: 100%;
+}
+
+h1 {
+    position: relative;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer ul {
+    width: 10%;
+    display: flex;
+    list-style: none;
+}
